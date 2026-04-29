@@ -2,7 +2,6 @@
 
 Buttos is a simple and quick library to create a Buttons / Label in android development using LOVE2D Game Framework.
 
-======================================
 ## Quick Start:
 ```lua
 local buttos = require 'path-to-buttos'
@@ -22,7 +21,7 @@ buttos.draw()
 love.graphics.print(text,120,50*2)
 end
 
-function love.touchpressed(id,x,y) buttos.pressed(i,x,y) end
+function love.touchpressed(id,x,y) buttos.pressed(id,x,y) end
 
 function love.touchmoved(id,x,y) buttos.moved(id,x,y) snd
 
