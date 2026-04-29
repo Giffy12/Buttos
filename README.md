@@ -49,6 +49,9 @@ function love.touchreleased(id,x,y) buttos.released(id,x,y) end
 - h = set the box height value
 - func = the button code in this function
 
+- return = None
+Example code (see main.lua)
+
 ```lua
 function box()
   local screenx,screeny = love.graphics.getDimensions()
