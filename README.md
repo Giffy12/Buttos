@@ -1,6 +1,6 @@
 ## BUTTOS, A SIMPLE BUTTON LIBRARY FOR LÖVE ANDROID
 
-Buttos is a simple and quick library to create a Buttons / Label in android development using LOVE2D Game Framework.
+Buttos is a simple and quick library to create a Buttons / Label for android development using LOVE2D Game Framework.
 
 ## Quick Start:
 ```lua
